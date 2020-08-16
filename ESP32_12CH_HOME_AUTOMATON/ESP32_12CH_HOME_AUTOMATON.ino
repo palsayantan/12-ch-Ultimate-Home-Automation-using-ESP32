@@ -7,11 +7,11 @@ BlynkTimer timer;
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "41oMbdFY1wH4BJ62TknlzpFmJ8llUyMv";
+char auth[] = "*****************************";
 
 // Your WiFi credentials.
-char ssid[] = "Sayantan";     // Your Network SSID
-char pass[] = "SayantaN";     // Your Network PASSWARD
+char ssid[] = "SSID";     // Your Network SSID
+char pass[] = "PASSWORD";     // Your Network PASSWARD
 
 int RELAY[12] = {13, 12, 14, 27, 26, 25, 1, 3, 17, 16, 4, 15};          // Define Output pins connected to Relay
 int SWITCH[12] = {23, 22, 21, 19, 18, 5, 33, 32, 35, 34, 39, 36};       // Define Input pins connected to Switch
