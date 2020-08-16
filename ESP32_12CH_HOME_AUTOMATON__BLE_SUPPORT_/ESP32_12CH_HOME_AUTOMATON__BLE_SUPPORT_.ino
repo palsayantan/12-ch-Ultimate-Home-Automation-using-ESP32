@@ -24,14 +24,14 @@ BlynkTimer timer;
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth_WiFi[] = "zQ5UO74N-JtjCyDlrMPp3I26qb-5gqpu";
-char auth_BLE[] = "_v2aCrnJ-_uMzjuVJVxFf1HKt7Ul35pB";
+char auth_WiFi[] = "*******************************";
+char auth_BLE[] = "*******************************";
 
 char BLE_Device_Name[] = "ESP32_WiFi_BLE";
 
 // Your WiFi credentials.
-char ssid[] = "Sayantan";     // Your Network SSID
-char pass[] = "SayantaN";     // Your Network PASSWARD
+char ssid[] = "SSID";     // Your Network SSID
+char pass[] = "PASSWORD";     // Your Network PASSWARD
 
 int RELAY[12] = {13, 12, 14, 27, 26, 25, 1, 3, 17, 16, 4, 15};          // Define Output pins connected to Relay
 int SWITCH[12] = {23, 22, 21, 19, 18, 5, 33, 32, 35, 34, 39, 36};       // Define Input pins connected to Switch
@@ -165,3 +165,4 @@ void loop() {
   Blynk_BLE.run();
   timer.run();
 }
+
