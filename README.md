@@ -2,6 +2,8 @@
 
 ESP32 based 12 Channel IOT Home Automation using Blynk Application. Can be controlled using Physical switch as well as virtual buttons on the blynk app. Works with or without internet connection using Bluetooth and WiFi connectivity with real time device status on the app.
 
+*NOTE : If you having issues with the BLE_WiFi code, Use BlynkESP32_BT_WF library v.1.0.5*
+
 # Specifications :
 
 - INPUT : 220V 50Hz AC
